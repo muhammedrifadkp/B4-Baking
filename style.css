@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
     --primary-red: #70100A;
@@ -485,7 +485,7 @@ nav.scrolled {
 }
 
 .brand-logo-img {
-    height: 160px !important;
+    height: 180px !important;
     width: auto !important;
     object-fit: contain !important;
     margin: 0 auto 2rem auto !important;
@@ -498,7 +498,7 @@ nav.scrolled {
     transform: scale(1.1) rotate(3deg);
 }
 
-.brand-card img:not(.brand-logo-img) {
+.brand-card img:not(.brand-logo-img):not(.brand-name-logo) {
     height: 200px;
     width: 100%;
     object-fit: cover;
@@ -520,9 +520,18 @@ nav.scrolled {
     font-weight: 600;
 }
 
+.brand-name-logo {
+    height: 50px !important;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 2rem;
+    filter: brightness(1.2);
+    align-self: flex-start;
+}
+
 .brand-card h3 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    display: none;
+    /* Hide in case any remain */
 }
 
 .brand-card ul {
@@ -717,8 +726,27 @@ nav.scrolled {
 }
 
 .contact-item p {
-    font-size: 1.4rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: var(--soft-white);
+    letter-spacing: 0.02em;
+}
+
+#contact .section-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+#contact h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+#contact h4 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
 }
 
 .contact-form {
@@ -747,8 +775,9 @@ nav.scrolled {
     border-bottom: 1px solid var(--light-gray);
     padding: 1rem 0;
     color: white;
-    font-family: inherit;
+    font-family: 'Outfit', sans-serif;
     font-size: 1rem;
+    font-weight: 400;
     transition: var(--transition-fast);
 }
 
