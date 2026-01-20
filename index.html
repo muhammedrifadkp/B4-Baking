@@ -4,143 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B4 Baking | Bulk Pre-Baking & Food Service Ingredient Supply</title>
+    <title>B4 Baking | Premium Industrial Food Supply & Distribution</title>
     <meta name="description"
-        content="B4 Baking supplies trusted brands to professional kitchens in high quantities. Wholesale pre-baking and food service ingredient distribution.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        content="Professional B2B wholesale distribution of premium pre-baking and food service ingredients. Partnering with elite brands: RKG, Nandhini, Mala's, and 1 TO 3.">
+    <!-- Meta Tags for SEO -->
+    <meta property="og:title" content="B4 Baking | Premium Industrial Food Supply">
+    <meta property="og:description"
+        content="Elite wholesale distribution for professional kitchens. Minimum 50 cases order.">
+
+    <!-- Favicon / Head Icon -->
+    <link rel="icon" type="image/png" href="images/b4-baking-logo copy.png">
+    <link rel="apple-touch-icon" href="images/b4-baking-logo copy.png">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav id="navbar">
         <div class="container nav-container">
-            <div class="logo">B4 Baking</div>
+            <a href="#" class="logo">
+                <img src="images/b4-baking-logo.png" alt="B4 Baking Logo" class="nav-logo-img">
+            </a>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#brands">Brands</a></li>
-                <li><a href="#supply">Bulk Supply</a></li>
-                <li><a href="#contact" class="btn-nav">Get in Touch</a></li>
+                <li><a href="#about">Philosophy</a></li>
+                <li><a href="#brands">Our Brands</a></li>
+                <li><a href="#supply">Distribution</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="nav-actions">
+                <a href="tel:+916282554750" class="btn nav-cta">Get in Touch</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
     </nav>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Philosophy</a></li>
+                <li><a href="#brands">Our Brands</a></li>
+                <li><a href="#supply">Distribution</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Hero Section -->
-    <header class="hero">
+    <header class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero_bakery_premium.png" alt="High-end Bakery Kitchen">
+        </div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1>B4 Baking</h1>
-            <p class="hero-subtitle">Bulk Pre-Baking & Food Service Ingredient Supply</p>
-            <p class="hero-description">Supplying trusted brands to professional kitchens in high quantities.</p>
-            <a href="#contact" class="btn-primary">Contact for Bulk Supply</a>
+            <h1>The Gold Standard in Bulk Food Supply.</h1>
+            <p>Supplying the world's most trusted brands to professional kitchens, industrial bakeries, and high-volume
+                catering units across the region.</p>
+            <div class="hero-btns">
+                <a href="#brands" class="btn btn-primary">Our Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Partner With Us</a>
+            </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="section about-section">
+    <section class="section section-reveal" id="about">
         <div class="container">
-            <div class="section-header">
-                <h2>Industrial Standard Supply</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="about-content">
-                <p>B4 Baking serves as a dedicated wholesale distributor for the professional culinary industry. We
-                    specialize in the high-volume supply of premium pre-baking and food service ingredients.</p>
-                <p>Our operations are strictly B2B, designed to meet the rigorous demands of bakeries, cafes, dessert
-                    kitchens, restaurants, and catering units. We prioritize consistency, quality, and supply chain
-                    reliability for businesses that require minimum order quantities of 50 cases and above.</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-label">Our Philosophy</span>
+                    <h2 class="section-title">Beyond Basic Supply. Engineering Reliability.</h2>
+                    <p>B4 Baking is not just a distributor; we are a critical link in your production chain. We
+                        specialize in the high-volume supply of premium pre-baking and food service ingredients for
+                        those who demand uncompromising quality.</p>
+                    <p>Our operations are strictly B2B, designed specifically for industrial bakeries, luxury hotels,
+                        and large-scale catering operations. We ensure that the heartbeat of your kitchen never skips a
+                        beat.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <h4>B2B Exclusive</h4>
+                            <p>Optimized logistics for minimum 50+ case orders.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Tier 1 Brands</h4>
+                            <p>Only the most trusted names in the culinary world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/bulk_distribution_luxury.png" alt="Industrial Food Distribution">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Brands & Products Section -->
-    <section id="brands" class="section brands-section">
+    <!-- Brands Section -->
+    <section class="section section-reveal" id="brands">
         <div class="container">
-            <div class="section-header">
-                <h2>Our Partner Brands</h2>
-                <p class="section-sub">Distributing trusted names to professional kitchens.</p>
-                <div class="separator"></div>
+            <div class="center-header">
+                <span class="section-label">Curated Portfolio</span>
+                <h2 class="section-title">The Brands That Build Your Business</h2>
+                <p>We bridge the gap between world-class producers and professional kitchens, maintaining the highest
+                    standards of storage and logistics.</p>
             </div>
 
-            <div class="brands-grid">
+            <div class="brand-grid">
                 <!-- Brand 1: RKG -->
                 <div class="brand-card">
-                    <div class="brand-header">
-                        <h3>RKG</h3>
-                        <span class="category-tag">Ghee & Sweets</span>
-                    </div>
-                    <ul class="product-list">
-                        <li><strong>Primary:</strong> Ghee</li>
-                        <li>Rasagulla</li>
-                        <li>Gulab Jamun</li>
+                    <span class="brand-category">Ghee & Traditional Sweets</span>
+                    <h3>RKG</h3>
+                    <img src="images/rkg.webp" alt="RKG Ghee" class="brand-logo-img">
+                    <ul>
+                        <li>Premium Pure Ghee</li>
+                        <li>Industrial Rasagulla Supplies</li>
+                        <li>High-Volume Gulab Jamun</li>
                     </ul>
-                    <p class="brand-note">Specialized support for dessert and sweet preparation.</p>
+                    <a href="#contact" class="btn btn-outline"
+                        style="padding: 0.8rem 1.5rem; width: fit-content; font-size: 0.7rem;">Inquire Bulk</a>
                 </div>
 
                 <!-- Brand 2: Nandhini -->
                 <div class="brand-card">
-                    <div class="brand-header">
-                        <h3>Nandhini</h3>
-                        <span class="category-tag">Dairy Products</span>
-                    </div>
-                    <ul class="product-list">
-                        <li><strong>Frozen:</strong> Mozzarella Shredded Cheese, Butter</li>
-                        <li><strong>Non-Frozen:</strong> Toned Milk, Ghee</li>
+                    <span class="brand-category">Dairy Solutions</span>
+                    <h3>Nandhini</h3>
+                    <img src="images/Nandhini.png" alt="Nandhini Dairy" class="brand-logo-img">
+                    <ul>
+                        <li>Mozzarella Shredded Cheese</li>
+                        <li>Premium Bulk Butter</li>
+                        <li>Ultra-Pasteurized Toned Milk</li>
                     </ul>
-                    <p class="brand-note">High-quality, trusted dairy sourcing for unmatched richness.</p>
+                    <a href="#contact" class="btn btn-outline"
+                        style="padding: 0.8rem 1.5rem; width: fit-content; font-size: 0.7rem;">Inquire Bulk</a>
                 </div>
 
                 <!-- Brand 3: Malas -->
                 <div class="brand-card">
-                    <div class="brand-header">
-                        <h3>Malas</h3>
-                        <span class="category-tag">Flavor Solutions</span>
-                    </div>
-                    <ul class="product-list">
-                        <li>Fruit Crushers & Fillings</li>
-                        <li>Jams & Derivatives</li>
-                        <li>Multiple Flavor Variants</li>
+                    <span class="brand-category">Flavor Infrastructure</span>
+                    <h3>Mala's</h3>
+                    <img src="images/Mala-s.png" alt="Mala's Fruit Crush" class="brand-logo-img">
+                    <ul>
+                        <li>Professional Fruit Crushers</li>
+                        <li>High-Concentrate Fillings</li>
+                        <li>Artisanal Jams & Syrups</li>
                     </ul>
-                    <p class="brand-note">Comprehensive fruit and flavor range for bakeries.</p>
+                    <a href="#contact" class="btn btn-outline"
+                        style="padding: 0.8rem 1.5rem; width: fit-content; font-size: 0.7rem;">Inquire Bulk</a>
                 </div>
 
                 <!-- Brand 4: 1 TO 3 -->
                 <div class="brand-card">
-                    <div class="brand-header">
-                        <h3>1 TO 3</h3>
-                        <span class="category-tag">Savory & Noodles</span>
-                    </div>
-                    <ul class="product-list">
-                        <li>Soorya Noodles</li>
-                        <li>Masala Products</li>
-                        <li><strong>Bulk Sizes:</strong> 450g & 900g</li>
+                    <span class="brand-category">Savory & Provisions</span>
+                    <h3>1 TO 3</h3>
+                    <img src="images/1_TO_3.png" alt="1 to 3 Noodles" class="brand-logo-img">
+                    <ul>
+                        <li>Soorya Noodles (Bulk)</li>
+                        <li>Industrial Spice Blends</li>
+                        <li>450g & 900g Enterprise Sizes</li>
                     </ul>
-                    <p class="brand-note">High-volume distribution only.</p>
+                    <a href="#contact" class="btn btn-outline"
+                        style="padding: 0.8rem 1.5rem; width: fit-content; font-size: 0.7rem;">Inquire Bulk</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Bulk Supply Emphasis -->
-    <section id="supply" class="section supply-section">
+    <!-- Supply Section -->
+    <section class="section section-reveal" id="supply">
         <div class="container">
             <div class="supply-grid">
                 <div class="supply-content">
-                    <h1>Wholesale Distribution Only</h1>
+                    <span class="section-label">Enterprise Distribution</span>
+                    <h2 class="section-title">Wholesale Operations Only.</h2>
                     <p>We do not serve retail customers. Our logistics and inventory are optimized for large-scale
-                        operations.</p>
+                        operations and high-volume production units.</p>
                     <ul class="supply-features">
                         <li>Minimum order: 50 Cases+</li>
                         <li>Consistent Stock Availability</li>
                         <li>Dedicated B2B Logistics</li>
-                        <!-- <li>Optimized for Large Production Units</li> -->
                     </ul>
+                    <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">Discuss Distribution</a>
                 </div>
                 <div class="supply-visual">
-                    <!-- Geometric CSS Pattern as visual since image gen failed -->
                     <div class="slider-container" id="slider-box">
                         <div class="slider-track" id="slider-track">
                             <!-- Slides -->
@@ -164,140 +215,110 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container contact-container">
-            <h2>Partner With Us</h2>
-            <p>For bulk orders and distribution enquiries, contact us directly.</p>
+    <section class="section section-reveal" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2>Secure Your Supply Chain.</h2>
+                    <p style="color: var(--muted-text); margin-bottom: 3rem;">Ready to elevate your ingredient sourcing?
+                        Our enterprise team is standing by to discuss your bulk requirements.</p>
 
-            <div class="contact-methods">
-                <div class="contact-box">
-                    <a href="tel:+916282554750" class="box-link">
-                        <div class="icon-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
-                            </svg>
-                        </div>
-                        <h3>Direct Line</h3>
-                        <p class="contact-number">+91 6282 554 750</p>
-                        <p class="contact-sub">Available Mon-Sat, 9am - 6pm</p>
-                    </a>
+                    <div class="contact-item">
+                        <h4>Direct Line</h4>
+                        <p>+91 6282 554 750</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>Corporate Email</h4>
+                        <p>b4bakingonline@gmail.com</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>Headquarters</h4>
+                        <p>KMC 2/342, Balla Beach Road,<br>Kanhangad, Kerala, 671315</p>
+                    </div>
                 </div>
 
-                <div class="contact-box">
-                    <a href="mailto:b4bakingonline@gmail.com" class="box-link">
-                        <div class="icon-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                </path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label>Full Name / Business Name</label>
+                            <input type="text" placeholder="John Doe / Elite Bakeries">
                         </div>
-                        <h3>Email Us</h3>
-                        <p class="contact-text">b4bakingonline@gmail.com</p>
-                    </a>
-                </div>
-
-                <div class="contact-box">
-                    <a href="https://www.google.com/maps/search/?api=1&query=KMC+2/342,+BALLA+BEACH+ROAD,+VADAKARAMUKK,+KANHANGAD,+KASARAGOD,+KERALA,+671315"
-                        target="_blank" class="box-link">
-                        <div class="icon-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
-                            </svg>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com">
                         </div>
-                        <h3>Visit Us</h3>
-                        <p class="contact-text address-text">
-                            KMC 2/342, BALLA BEACH ROAD,<br>
-                            VADAKARAMUKK, KANHANGAD,<br>
-                            KASARAGOD, KERALA, 671315
-                        </p>
-                    </a>
+                        <div class="form-group">
+                            <label>Required Product / Volume</label>
+                            <input type="text" placeholder="e.g. Nandhini Butter - 100 Cases">
+                        </div>
+                        <div class="form-group">
+                            <label>Inquiry Details</label>
+                            <textarea rows="4" placeholder="How can we assist your business?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                    </form>
                 </div>
             </div>
-
-            <a href="tel:+916282554750" class="btn-primary btn-outline">Call Now</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <p><strong>B4 Baking</strong> - Bulk Ingredient Supply & Distribution</p>
-                    <p class="gst-text">GST: 32AALFB1621M1ZN</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/b4-baking-logo.png" alt="B4 Baking Logo" class="footer-logo-img">
+                    </div>
+                    <p>Elite industrial ingredient distribution. Powering the region's finest professional kitchens with
+                        consistency and excellence.</p>
+                    <p style="margin-top: 1.5rem; font-size: 0.8rem;">GST: 32AALFB1621M1ZN</p>
                 </div>
-                <div class="footer-address">
-                    <p>KMC 2/342, Balla Beach Road, Vadakaramukk, Kanhangad, Kerala 671315</p>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">Philosophy</a></li>
+                        <li><a href="#brands">Our Brands</a></li>
+                        <li><a href="#supply">Logistics</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">GST Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Office</h4>
+                    <p style="color: var(--muted-text); font-size: 0.9rem;">
+                        Vadakaramukk, Kanhangad<br>
+                        Kasaragod, Kerala<br>
+                        India, 671315
+                    </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 B4 Baking. All Rights Reserved.</p>
+                <p>&copy; 2026 B4 Baking. Built for Professionals.</p>
+                <p>Designed for Excellence</p>
             </div>
         </div>
     </footer>
 
-    <!-- Sticky WhatsApp Button -->
-    <a href="https://wa.me/916282554750" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
-        title="Chat on WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="white">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/916282554750" class="whatsapp-float" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white">
             <path
                 d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
         </svg>
     </a>
-    <script>
-        let currentSlide = 0;
-        const totalSlides = 4;
-        const track = document.getElementById('slider-track');
-        const thumbs = document.querySelectorAll('.thumbnails-overlay img');
-        let autoPlayInterval;
 
-        function updateSlider() {
-            // Move the track
-            track.style.transform = `translateX(-${currentSlide * 25}%)`;
-
-            // Update active thumbnail
-            thumbs.forEach((thumb, index) => {
-                if (index === currentSlide) {
-                    thumb.classList.add('active');
-                } else {
-                    thumb.classList.remove('active');
-                }
-            });
-        }
-
-        function changeSlide(index) {
-            currentSlide = index;
-            updateSlider();
-            resetAutoPlay();
-        }
-
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % totalSlides;
-            updateSlider();
-        }
-
-        function startAutoPlay() {
-            autoPlayInterval = setInterval(nextSlide, 3000); // Change every 3 seconds
-        }
-
-        function resetAutoPlay() {
-            clearInterval(autoPlayInterval);
-            startAutoPlay();
-        }
-
-        // Initialize
-        startAutoPlay();
-    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
